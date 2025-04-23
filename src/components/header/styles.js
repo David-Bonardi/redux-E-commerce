@@ -8,11 +8,19 @@ export const Container = styled.div`
   color: #eee;
   padding: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+
+  @media(max-width: 768px){
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.div`
   font-size: 1.25rem;
   font-weight: bold;
+
+  @media(max-width: 768px){
+    font-size: 16px;
+  }
 `;
 
 export const Buttons = styled.div`
@@ -28,6 +36,14 @@ export const Buttons = styled.div`
 
     &:nth-child(1) {
       margin-right: 40px;
+
+      @media(max-width: 768px){
+        margin-right: 12px;
+      }
     }
+  }
+
+  @media(max-width: 768px){
+    font-size: 12px;
   }
 `;

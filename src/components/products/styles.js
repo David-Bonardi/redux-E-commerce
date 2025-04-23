@@ -8,7 +8,8 @@ export const Container = styled.div`
   grid-row-gap: 20px;
 
   @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr;
   }
 `;
