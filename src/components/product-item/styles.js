@@ -17,6 +17,13 @@ export const ProductInfo = styled.div`
   p {
     font-size: 1rem;
     font-weight: 500;
+    color: #fff;
+    margin-top: 16px;
+
+    @media(max-width: 768px){
+      margin-top: 0px;
+      font-size: 16px;
+    }
   }
 `;
 

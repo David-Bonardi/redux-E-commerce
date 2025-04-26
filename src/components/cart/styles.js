@@ -16,7 +16,7 @@ export const CartContainer = styled.div`
   transition: all 0.3s ease;
 
   p {
-    color: #222222;
+    color: #fff;
   }
 `;
 
@@ -28,7 +28,8 @@ export const CartContent = styled.div`
   height: 100%;
   min-width: 500px;
   z-index: 200;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.90);
+  backdrop-filter: blur(20px);
   padding: 20px;
   overflow-y: scroll;
 

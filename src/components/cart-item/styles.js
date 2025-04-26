@@ -6,11 +6,11 @@ export const CartItemContainer = styled.div`
   margin-bottom: 15px;
 
   p {
-    color: #222222;
+    color: #fff;
   }
 
   svg {
-    color: #222222;
+    color: #fff;
   }
 `;
 

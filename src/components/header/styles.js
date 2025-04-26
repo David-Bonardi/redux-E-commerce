@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  background-color: #222222;
   display: flex;
   justify-content: space-between;
   color: #eee;
   padding: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.70);
+  backdrop-filter: blur(20px);
 
   @media(max-width: 768px){
     align-items: center;
